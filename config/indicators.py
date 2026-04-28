@@ -16,4 +16,23 @@ GHANA_INDICATORS = {
         "unit": "LCU per US$",
         "category": "monetary",
     },
+    "FP.CPI.TOTL.ZG": {
+        "name": "inflation_rate",
+        "label": "Inflation Rate",
+        "unit": "Annual %",
+        "category": "monetary",
+    },
+    "GC.XPN.TOTL.GD.ZS": {
+        "name": "govt_debt_pct-gdp",
+        "label": "Government Debt )",
+        "unit": "% of GDP",
+        "category": "fiscal",
+    },
+    "SL.UEM.TOTL.ZS": {
+        "name": "unemployment_rate",
+        "label": "Unemployment Rate",
+        "unit": "Percent of total labor force",
+        "category": "labor",
+    },
+
 }
