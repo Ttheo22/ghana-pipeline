@@ -23,7 +23,7 @@ def plot_inflation():
 def plot_all_indicators():
     indicators = df['indicator_name'].unique()
     
-    fig, axes = plt.subplots(len(indicators), 1, figsize=(12, 4 * len(indicators)))
+    fig, axes = plt.subplots(len(indicators), 1, figsize=(12, 5* len(indicators)))
     
     for i, indicator in enumerate(indicators):
         indicator_df = df[df['indicator_name'] == indicator]
