@@ -1,6 +1,6 @@
 COUNTRY_CODE = "GH"
 START_YEAR = 2000
-END_YEAR = 2023
+END_YEAR = 2025
 BASE_URL = "https://api.worldbank.org"
 
 GHANA_INDICATORS = {
